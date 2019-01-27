@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_query"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:hint="请输入查询字拼音组合"
+        android:background="@null"
+        />
+
+
+
+    <TextView
+        android:id="@+id/shortcut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="SHOWTIME"/>
+
+        <Button
+            android:id="@+id/startSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:text="开始查询"/>
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/abc"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="abc"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/def"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="def"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/ghi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="ghi"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/jkl"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="jkl"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/mno"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="mno"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/pgrs"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="pgrs"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/tuv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="tuv"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/wxyz"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="wxyz"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="确定"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
